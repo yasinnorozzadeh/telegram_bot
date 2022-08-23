@@ -4,7 +4,7 @@ import khayyam
 from gtts import gTTS
 from qrcode import make
 
-mybot = telebot.TeleBot("5591959528:AAGy7ODAuQhbfNGe-iPRL7aJakJsFU7OXeA")
+mybot = telebot.TeleBot("token")
 NUMBER = random.randint(0 ,100)
 
 @mybot.message_handler(commands=["start"])
